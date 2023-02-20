@@ -1,6 +1,6 @@
 body {
-    background: rgb(58, 180, 147);
-    background: linear-gradient(90deg, rgba(58, 180, 147, 1) 0%, rgba(29, 253, 145, 1) 50%, rgba(58, 180, 147, 1) 100%);
+    /* background: rgb(58, 180, 147);
+    background: linear-gradient(90deg, rgba(58, 180, 147, 1) 0%, rgba(29, 253, 145, 1) 50%, rgba(58, 180, 147, 1) 100%); */
     font-family: Arial, Helvetica, sans-serif;
     /* background-image: url(./img/5570173.jpg);
     background-attachment: fixed;
@@ -11,14 +11,14 @@ body {
 
 nav {
     background-color: #212529;
+    padding: 50px;
 }
 
 #my-image {
     border-radius: 50%;
     margin-top: 20%;
-    width: 60%;
-
-    animation: go-back 2s infinite alternate;
+    width: 80%;
+    animation: go-back 3s infinite alternate;
 }
 
 #apresentation {
@@ -26,49 +26,83 @@ nav {
     margin-top: 15%;
 }
 
-#apresentation .title{
+#apresentation .title {
     font-size: 70px;
 }
 
-.nav-link {
-    color: white !important;
+.about-me {
+    font-size: larger;
 }
 
 
+#scroll-animation {
+    /* margin: 0 auto; */
+    width: 50px !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
-.post {
-    background-color: #212529;
-    border-radius: 6px;
+nav {
+    top: 0;
+    position: fixed !important;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.box-dark {
+    background-color: rgb(33, 37, 41, 50%);
+    border-radius: 12px;
     color: white;
-    padding: 8px;
+    padding: 12px;
+
+}
+
+.tools i {
+    margin: 10px;
+    font-size: 50px;
+}
+
+.nav-link {
+    font-size: larger;
+    margin: 5px;
+    color: white !important;
 }
 
 .navbar-toggler-icon {
     color: white !important;
 }
 
-.color-darkk{
+
+.post {
+    background-color: rgb(33, 37, 41, 50%);
+    color: rgba(255, 251, 251);
+    padding: 8px;
+}
+
+
+.color-darkk {
     /* background: rgb(29,253,145);
 background: linear-gradient(90deg, rgba(29,253,145,1) 0%, rgba(15,15,39,1) 13%, rgba(15,15,39,1) 92%, rgba(29,253,145,1) 100%); */
     /* color: white; */
 }
 
-.card-project{
+.card-project {
     background-color: aqua;
     margin: 0 auto;
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 20rem;
     border-radius: 12px;
 }
 
-.card-project img{
-    width: 400px;
-    height: auto;
+.card-project img {
+    width: 80%;
+    height: 20rem;
 }
 
 @keyframes go-back {
     from {
-        transform: translateY(-30px);
+        transform: translateY(-20px);
     }
 
     to {
@@ -77,7 +111,5 @@ background: linear-gradient(90deg, rgba(29,253,145,1) 0%, rgba(15,15,39,1) 13%, 
 }
 
 @media screen and (min-width: 767px) {
-    #apresentation{
-        
-    }
-}    
+    #apresentation {}
+}
