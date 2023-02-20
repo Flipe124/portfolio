@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    background-color: #0F0F27;
+    background-color: #212529;
 }
 
 #my-image {
@@ -22,7 +22,12 @@ nav {
 }
 
 #apresentation {
+    /* text-align: center; */
     margin-top: 15%;
+}
+
+#apresentation .title{
+    font-size: 70px;
 }
 
 .nav-link {
@@ -32,10 +37,33 @@ nav {
 
 
 .post {
-    background-color: #0F0F27;
+    background-color: #212529;
     border-radius: 6px;
     color: white;
     padding: 8px;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.color-darkk{
+    /* background: rgb(29,253,145);
+background: linear-gradient(90deg, rgba(29,253,145,1) 0%, rgba(15,15,39,1) 13%, rgba(15,15,39,1) 92%, rgba(29,253,145,1) 100%); */
+    /* color: white; */
+}
+
+.card-project{
+    background-color: aqua;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.card-project img{
+    width: 400px;
+    height: auto;
 }
 
 @keyframes go-back {
@@ -47,3 +75,9 @@ nav {
         transform: translateY(0);
     }
 }
+
+@media screen and (min-width: 767px) {
+    #apresentation{
+        
+    }
+}    
