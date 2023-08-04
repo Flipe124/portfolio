@@ -60,9 +60,9 @@
 
 
 
-.flutuar {
+/* .flutuar {
     animation: flutuarAnimacao 5s infinite;
-}
+} */
 
 @keyframes flutuarAnimacao {
     0% {
