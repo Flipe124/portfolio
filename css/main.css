@@ -1,18 +1,30 @@
-/* main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-} */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/* @keyframes go-back {
-    from {
-        transform: translateY(-20px);
-    }
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
-    to {
-        transform: translateY(0);
-    }
-} */
+#apresentation {
+    margin-top: 56px;
+}
+
+.half {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+.my-padding {
+    padding-right: 8%;
+    padding-left: 8%;
+}
 
 .mtop-1 {
     margin-top: 10px;
@@ -35,14 +47,14 @@
     background-color: green;
 }
 
-.card-project {
+/* .card-project {
     background-color: aqua;
     margin: 0 auto;
     max-width: 80%;
     width: 80%;
     height: 20rem;
     border-radius: 12px;
-}
+} */
 
 .container {
     margin-top: 3%;
@@ -58,8 +70,7 @@
     font-size: 4vh;
 }
 
-#apresentation {
-    /* text-align: center; */
+/* #apresentation {
     margin-top: 15%;
     max-width: 100%;
     height: auto;
@@ -68,22 +79,29 @@
 #apresentation .title {
     max-width: 10%;
     font-size: 4vw;
-}
+} */
 
 #scroll-animation {
     position: absolute;
     top: 80%;
-    /* margin: 0 auto; */
     width: 50px !important;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 #my-image {
-    border-radius: 50%;
+    /* border-radius: 12px; */
     max-width: 60%;
     /* margin-top: 20%; */
     /* width: 50%; */
 
-    animation: go-back 3s infinite alternate;
+    /* animation: go-back 3s infinite alternate; */
+}
+
+@media screen and (width < 768px) {
+    .half {
+        width: 100%;
+        margin: 0;
+        margin-top: 1%;
+    }
 }
