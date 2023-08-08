@@ -2,6 +2,40 @@
     background-color: aqua;
     height: 1500px;
 }
+
+.project h1 {
+    text-align: center;
+
+    font-weight: 700;
+
+    padding-top: 10px;
+}
+
+.show-project{
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+
+    border-radius: 8px;
+    margin-left: 100px;
+
+    transition: 0.5s;
+}
+
+.show-project img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+    border-radius: 12px;
+    width: 96%;
+    height: 96%;
+}
+
+
+.show-project:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
 .card-project {
     border: 5px;
     border-color: white;
