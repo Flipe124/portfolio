@@ -1,6 +1,7 @@
 .project {
-    background-color: aqua;
-    height: 1500px;
+    background-color: rgb(255, 255, 255);
+    /* height: 1500px; */
+    padding-bottom: 100px;
 }
 
 .project h1 {
@@ -11,8 +12,9 @@
     padding-top: 10px;
 }
 
-.show-project{
-    background-color: rgb(255, 255, 255);
+.show-project {
+    background-color: rgb(41, 41, 41);
+    color: white;
     width: 240px;
 
     border-radius: 8px;
@@ -30,57 +32,30 @@
     height: 96%;
 }
 
+.show-project h3 {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.show-project p {
+    margin-left: 7px;
+    margin-right: 7px;
+}
 
 .show-project:hover {
     scale: 1.02;
     transition: 0.5s;
 }
 
-.card-project {
-    border: 5px;
-    border-color: white;
-    border-radius: 12px;
-    
-    background-color: aqua;
-
-    display: inline-block;
-    vertical-align: top;
-
-    width: 32%;
-    height: 200px;
-    margin: 0.5%;
-
-    transition: 0.5s;
-}
-
-.card-project:hover {
-    scale: 1.02;
-    transition: 0.5s;
-
-}
-
-/* .skill {
-    text-align: center;
-    font-size: 40px;
-
-    margin-top: 30px;
-}
-
-.skill i {
-    margin: 7px;
-}
-
-.skill i:hover {
-    color: gray;
-    scale: 1.1;
-    transition: 0.4s;
-} */
-
-
 @media screen and (width < 768px) {
-    .card-project {
-        width: 100%;
-        margin: 0;
-        margin-top: 1%;
+    .project {    
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* flex-wrap: wrap; */
+        /* gap: 20px; */
+    }
+    .show-project {
+        margin-left: 0px;
     }
 }

@@ -1,5 +1,5 @@
 .apresentation {
-    background-color: #042a32;
+    background-color: #292929;
     color: white;
 
     padding-top: 10px;
@@ -10,6 +10,10 @@
     font-weight: 700;
 
     padding-top: 10px;
+}
+
+.apresentation img {
+    /* border-radius: 50%; */
 }
 
 .social {
