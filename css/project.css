@@ -1,26 +1,69 @@
 .project {
     background-color: rgb(255, 255, 255);
-    /* height: 1500px; */
     padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .project h1 {
     text-align: center;
 
     font-weight: 700;
+    /* font-size: 00%; */
 
-    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* Centraliza horizontalmente */
+}
+
+.show-project-img {
+    min-width: 290px;
+    width: 90%;
+}
+
+.show-project-img:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+.project-img img{
+    display: block;
+
+    margin: 0 auto;
+    padding-top: 2%;
+    
+    border-radius: 8px;
+
+    max-width: 100%;
+    height: 169px;
+    max-height: 50%;
+
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 50%);
+
 }
 
 .show-project {
     background-color: rgb(41, 41, 41);
     color: white;
-    width: 240px;
+    /* width: 240px; */
+    width: 30%;
+    height: 300px;
+    /* max-height: 300px; */
+    /* max-height: 20%; */
 
     border-radius: 8px;
-    margin-left: 100px;
 
     transition: 0.5s;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 50%);
 }
 
 .show-project img {
@@ -28,18 +71,40 @@
     margin: 0 auto;
     padding-top: 2%;
     border-radius: 12px;
-    width: 96%;
-    height: 96%;
+    /* width: 96%; */
+    max-width: 96%;
+    height: auto;
+    max-height: 40%;
 }
 
+/* .img-project::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    z-index: -1;
+} */
+
 .show-project h3 {
+    font-size: 20px;
+    margin-top: 5px;
     margin-left: 7px;
     margin-right: 7px;
 }
 
 .show-project p {
+    font-size: 15px;
+    font-weight: 100;
     margin-left: 7px;
     margin-right: 7px;
+}
+
+.skill-used i {
+    font-size: 3vw;
 }
 
 .show-project:hover {
@@ -48,14 +113,27 @@
 }
 
 @media screen and (width < 768px) {
-    .project {    
-        /* display: flex; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* flex-wrap: wrap; */
-        /* gap: 20px; */
+    .project {
+        padding-left: 0px;
+        padding-right: 0px;
     }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        /* Organiza os projetos em coluna */
+        align-items: center;
+        /* Centraliza horizontalmente */
+    }
+
+    .show-project-img {
+        color: white;
+        width: 80%;
+    }
+
     .show-project {
         margin-left: 0px;
+        margin-top: 10px;
+
+        width: 80%;
     }
 }
