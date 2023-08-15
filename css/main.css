@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 
