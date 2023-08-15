@@ -32,7 +32,7 @@
 
 .social i:hover {
     scale: 1.2;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .skill {
@@ -51,7 +51,7 @@
 .skill i:hover {
     color: white;
     scale: 1.2;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .skill .fa-html5:hover {
