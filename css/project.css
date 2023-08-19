@@ -1,5 +1,6 @@
 .project {
     background-color: rgb(255, 255, 255);
+
     padding-bottom: 100px;
     padding-left: 100px;
     padding-right: 100px;
@@ -10,31 +11,21 @@
     text-align: center;
 
     font-weight: 700;
-    /* font-size: 00%; */
 
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
 }
 
-.projects {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* Centraliza horizontalmente */
-}
-
 .show-project-img {
     display: flex;
+
     align-items: center;
-    padding: 40px;
 }
 
 .project-img,
 .text-span {
     flex: 1;
-    /* Para ambos os elementos ocuparem 50% da largura */
     display: inline-block;
     vertical-align: top;
 }
@@ -43,42 +34,35 @@
     padding: 10px;
 }
 
-.show-project-img img {
-    width: 30%;
-}
-
 .show-project-img:hover {
     scale: 1.0;
+
     transition: 0.5s;
 }
 
 .project-img img {
-    /* display: block; */
-
     margin: 0;
 
-    border-radius: 8px;
+    border-radius: 15px;
 
     min-width: 300px;
     width: 100%;
-    padding: 20px;
-    /* height: 169px; */
-    /* max-height: 50%; */
 
-    transition: 0.5s;
-    /* box-shadow: 5px 5px 5px rgb(0, 0, 0, 25%); */
-
+    transform: scale(0.7);
+    box-shadow: 0 60px 123px -25px rgba(112, 112, 112, 0.6);
+    transition: 0.6s;
 }
 
-.show-project img {
-    display: block;
-    margin: 0 auto;
-    padding-top: 2%;
-    border-radius: 12px;
-    /* width: 96%; */
-    max-width: 96%;
-    height: auto;
-    max-height: 40%;
+.project-img:hover img {
+    transition: 0.6s;
+}
+
+.show-project-img h3 {
+    color: #292929;
+}
+
+.show-project-img p {
+    color: rgb(150, 150, 150);
 }
 
 .skill-used i {
@@ -87,14 +71,30 @@
 
 .show-project:hover {
     scale: 1.02;
+
     transition: 0.5s;
 }
 
 .btn-access-project {
-    background-color: #292929;
-    padding: 10px 15px;
+    padding: 10px 30px;
+
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+
+    border-color: #292929;
+    color: #292929;
+
+    transition: 0.5s;
+}
+
+.btn-access-project:hover {
+    background-color: #292929;
+    color: white;
+
+    transition: 0.5s;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
 }
 
 @media screen and (width < 768px) {
@@ -113,7 +113,9 @@
 
     .show-project-img {
         color: rgb(0, 0, 0);
+
         width: 80%;
+        
         margin-bottom: 20px;
     }
 
