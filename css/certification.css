@@ -5,13 +5,13 @@
     padding-right: 100px;
 }
 
-.show-certification {
+.show-certification{
     transition: 0.5s;
     padding: 10px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-
+    
 }
 
 .show-certification:hover {
@@ -19,15 +19,12 @@
     background-color: rgb(255, 255, 255);
     color: black;
 }
-
-.show-certification:hover .img,
-title {
+.show-certification:hover .img, title{
     transition: 0.2s;
 }
 
 
-.img,
-.title {
+.img, .title {
     /* flex: 1; */
 }
 
@@ -59,7 +56,7 @@ title {
 }
 
 .line-small {
-    height: 1px;
+        height: 1px;
 }
 
 @media screen and (width < 768px) {
