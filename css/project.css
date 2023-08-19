@@ -21,6 +21,7 @@
     display: flex;
 
     align-items: center;
+    text-align: center;
 }
 
 .project-img,
@@ -94,34 +95,44 @@
 
     transition: 0.5s;
 
-    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (width < 768px) {
     .project {
+        background-color: rgb(255, 255, 255);
+    
+        padding-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
-    }
-
-    .projects {
-        display: flex;
-        flex-direction: column;
-        /* Organiza os projetos em coluna */
-        align-items: center;
-        /* Centraliza horizontalmente */
+        padding-top: 10px;
     }
 
     .show-project-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .show-project-img img{
         color: rgb(0, 0, 0);
 
-        width: 80%;
-        
-        margin-bottom: 20px;
+        transform: scale(0.9);
+
+        margin-bottom: 0px;
     }
 
-    .project-img,
-    .text-span {
-        /* Para ambos os elementos ocuparem 50% da largura */
-        display: table-column;
+    .text-span {     
+        width: 100%;
+        margin-bottom: 40px;
     }
+
+    .position-1 {
+        order: 2
+    }
+
+    .position-2 {
+        order: 1;
+    }
+
+
 }
