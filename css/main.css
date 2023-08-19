@@ -21,6 +21,10 @@ body::-webkit-scrollbar-thumb {
     /* transition: 0.5s; */
 }
 
+.color-black {
+    color: #292929;
+}
+
 
 #apresentation {
     margin-top: 56px;
