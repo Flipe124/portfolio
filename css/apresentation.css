@@ -94,7 +94,6 @@
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
     background-color: #fff;
     color: #292929;
     text-align: center;
@@ -104,10 +103,10 @@
     position: absolute;
     z-index: 1000;
 
-    width: 120px;
+    width: 100px;
     bottom: 100%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -50px;
 }
 
 .tooltip:hover .tooltiptext {
