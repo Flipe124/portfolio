@@ -78,6 +78,14 @@
     color: #563D7C;
 }
 
+.skill .fa-git-alt:hover {
+    color: #F05133;
+}
+
+.skill .fa-figma:hover {
+    color: #0ACF83;
+}
+
 .tooltip {
     opacity: 1;
     position: relative;
