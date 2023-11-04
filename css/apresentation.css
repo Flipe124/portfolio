@@ -116,7 +116,6 @@
 
 .tooltip i {
     font-size: 40px;
-    z-index: 1 !important;
 }
 
 @media screen and (width < 768px) {
