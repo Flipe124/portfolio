@@ -44,3 +44,9 @@
 .nav-link:hover::before {
     width: 100%;
 }
+
+@media screen and (width < 992px) {
+    .nav-link:hover::before {
+        width: 120px !important;
+    }
+}
