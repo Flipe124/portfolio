@@ -85,6 +85,22 @@
     margin-bottom: 10px;
 }
 
+.tech-used .fa-html5 {
+    color: #E34F26;
+}
+
+.tech-used .fa-css3-alt {
+    color: #1572B6;
+}
+
+.tech-used .fa-square-js {
+    color: #F7DF1E;
+}
+
+.tech-used .fa-bootstrap {
+    color: #563D7C;
+}
+
 .btn-access-project {
     padding: 10px 30px;
 
