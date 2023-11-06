@@ -80,6 +80,11 @@
     transition: 0.5s;
 }
 
+.tech-used {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
 .btn-access-project {
     padding: 10px 30px;
 
