@@ -87,7 +87,9 @@ body::-webkit-scrollbar-thumb {
 
 .line-full {
     margin-top: 0px;
-    background-color: gray;
+    background-color: rgb(255, 255, 255, 0.7);
+
+    backdrop-filter: blur(10px);
     height: 1px;
     width: 100%;
 }
