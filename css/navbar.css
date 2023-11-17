@@ -9,11 +9,12 @@
     background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
 
-    z-index: 9999
+    z-index: 9999;
 }
 
 .navbar-brand {
     transition: 0.5s;
+    font-size: xx-large;
 }
 
 .navbar-brand:hover {
