@@ -117,6 +117,7 @@
     bottom: 100%;
     left: 50%;
     margin-left: -50px;
+    margin-bottom: 10px;
 }
 
 .tooltip:hover .tooltiptext {
@@ -126,6 +127,10 @@
 
 .tooltip i {
     font-size: 40px;
+}
+
+.tooltip a i{
+    font-size: 30px;
 }
 
 @media screen and (width < 768px) {
