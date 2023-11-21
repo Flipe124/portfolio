@@ -1,0 +1,36 @@
+.skill-status {
+    background-color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    
+}
+
+.skill-container {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.skill-container:hover {
+    background-color: #292929;
+    color: #fff;
+
+    transition: 0.3s;
+}
+.skill-name{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (width < 768px) {
+    .skill-status {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+}
