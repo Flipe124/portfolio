@@ -108,6 +108,7 @@ body::-webkit-scrollbar-thumb {
 
 .title-section {
     padding-top: 25px;
+    padding-bottom: 20px;
     width: 100%;
     font-weight: 700;
     text-align: center;
