@@ -3,25 +3,37 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 25px;
+
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 50px;
+
 }
 
-/* .skills {
-    display: inline-block;
-} */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .skill-container {
-    border: 1px solid gray;
     padding: 10px;
-    margin-bottom: 30px;
     border-radius: 12px;
+
+    margin: 20px;
 
     transition: 0.3s;
 
-    /* width: 160px; */
+    width: 160px;
+    min-width: 160px;
+
+    box-shadow: 0 10px 80px -5px rgba(112, 112, 112, 0.6);
+    transition: 0.6s;
 
 }
 
-.html:hover{
+.html:hover {
     background-color: #E34F26;
     border-color: #E34F26;
     color: #fff;
@@ -29,7 +41,7 @@
     transition: 0.3s;
 }
 
-.css:hover{
+.css:hover {
     background-color: #1572B6;
     border-color: #1572B6;
     color: #fff;
@@ -37,7 +49,7 @@
     transition: 0.3s;
 }
 
-.css:hover{
+.css:hover {
     background-color: #1572B6;
     border-color: #1572B6;
     color: #fff;
@@ -45,7 +57,7 @@
     transition: 0.3s;
 }
 
-.js:hover{
+.js:hover {
     background-color: #F7DF1E;
     border-color: #F7DF1E;
     color: #000;
@@ -53,7 +65,15 @@
     transition: 0.3s;
 }
 
-.php:hover{
+.php:hover {
+    background-color: #4F5D95;
+    border-color: #4F5D95;
+    color: #fff;
+
+    transition: 0.3s;
+}
+
+.bootstrap:hover {
     background-color: #563D7C;
     border-color: #563D7C;
     color: #fff;
@@ -61,7 +81,23 @@
     transition: 0.3s;
 }
 
-.skill-name{
+.git:hover {
+    background-color: #F05133;
+    border-color: #F05133;
+    color: #fff;
+
+    transition: 0.3s;
+}
+
+.figma:hover {
+    background-color: #0ACF83;;
+    border-color: #0ACF83;;
+    color: #fff;
+
+    transition: 0.3s;
+}
+
+.skill-name {
     font-weight: 600;
     font-size: 20px;
     margin-top: 10px;
