@@ -101,4 +101,16 @@
         padding-left: 10px;
         padding-right: 0px;
     }
+
+    .skill-container {
+        width: 120px;
+        min-width: 130px;
+        margin: 5px;
+
+        font-size: 15px;
+    }
+
+    .skill-name {
+        font-size: 17px;
+    }
 }
