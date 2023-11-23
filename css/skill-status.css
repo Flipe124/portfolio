@@ -6,7 +6,7 @@
 
     text-align: center;
 
-    padding-top: 40px;
+    padding-top: 45px;
     padding-bottom: 50px;
 
 }
@@ -34,64 +34,56 @@
 }
 
 .html:hover {
+    box-shadow: 0 10px 80px -5px rgb(227, 79, 38, 0.6);
     background-color: #E34F26;
-    border-color: #E34F26;
     color: #fff;
 
     transition: 0.3s;
 }
 
 .css:hover {
+    box-shadow: 0 10px 80px -5px rgb(21, 114, 182, 0.6);
     background-color: #1572B6;
-    border-color: #1572B6;
-    color: #fff;
-
-    transition: 0.3s;
-}
-
-.css:hover {
-    background-color: #1572B6;
-    border-color: #1572B6;
     color: #fff;
 
     transition: 0.3s;
 }
 
 .js:hover {
+    box-shadow: 0 10px 80px -5px rgb(247, 223, 30, 0.6);
     background-color: #F7DF1E;
-    border-color: #F7DF1E;
     color: #000;
 
     transition: 0.3s;
 }
 
 .php:hover {
+    box-shadow: 0 10px 80px -5px rgb(79, 93, 149);
     background-color: #4F5D95;
-    border-color: #4F5D95;
     color: #fff;
 
     transition: 0.3s;
 }
 
 .bootstrap:hover {
+    box-shadow: 0 10px 80px -5px rgb(86, 61, 124);
     background-color: #563D7C;
-    border-color: #563D7C;
     color: #fff;
 
     transition: 0.3s;
 }
 
 .git:hover {
+    box-shadow: 0 10px 80px -5px rgb(240, 81, 51);
     background-color: #F05133;
-    border-color: #F05133;
     color: #fff;
 
     transition: 0.3s;
 }
 
 .figma:hover {
-    background-color: #0ACF83;;
-    border-color: #0ACF83;;
+    box-shadow: 0 10px 80px -5px rgb(10, 207, 131);
+    background-color: #0ACF83;
     color: #fff;
 
     transition: 0.3s;
