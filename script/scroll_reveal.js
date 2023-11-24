@@ -2,6 +2,7 @@ var widthScreen = window.innerWidth;
 RevealIntem(widthScreen);
 
 window.addEventListener('resize', function() {
+    
     if(!isMobileDevice()) {
         location.reload();
     }
