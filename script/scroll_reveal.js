@@ -63,6 +63,6 @@ show.reveal('.certification-reveal', {
 
 show.reveal('.footer-reveal', {
     duration: 1000,
-    distance: '70px',
+    distance: '20px',
     delay: 1000
 });
