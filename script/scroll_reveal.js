@@ -2,8 +2,14 @@ var widthScreen = window.innerWidth;
 RevealIntem(widthScreen);
 
 window.addEventListener('resize', function() {
-    location.reload();
+    if(!isMobileDevice()) {
+        location.reload();
+    }
 });
+
+function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
 
 function RevealIntem(screen) {
     var show = ScrollReveal({ reset: true });
