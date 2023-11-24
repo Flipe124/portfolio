@@ -6,7 +6,7 @@
 
     text-align: center;
 
-    padding-top: 45px;
+    padding-top: 40px;
     padding-bottom: 50px;
 
 }
@@ -103,14 +103,9 @@
     }
 
     .skill-container {
-        width: 120px;
-        min-width: 130px;
         margin: 5px;
 
         font-size: 15px;
     }
 
-    .skill-name {
-        font-size: 17px;
-    }
 }
