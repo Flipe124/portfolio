@@ -1,0 +1,12 @@
+.my-info-reveal,
+.my-image-reveal,
+.my-skill-reveal,
+.title-reveal,
+.skills-reveal,
+.project-left-reveal,
+.project-right-reveal,
+.certification-reveal,
+.certification-left-reveal,
+.footer-reveal {
+    visibility: hidden;
+}
