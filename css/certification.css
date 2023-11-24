@@ -1,6 +1,6 @@
 .certification {
     color: white;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
@@ -22,11 +22,6 @@
 }
 .show-certification:hover .img, title{
     transition: 0.2s;
-}
-
-
-.img, .title {
-    /* flex: 1; */
 }
 
 .title {
