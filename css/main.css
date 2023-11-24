@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     font-weight: 700;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #scroll-animation {
@@ -122,7 +122,5 @@ body::-webkit-scrollbar-thumb {
     .footer {
         padding-left: 5px;
         padding-right: 5px;
-        margin-bottom: 50px;
-        margin-top: 40px;
     }
 }
