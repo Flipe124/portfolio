@@ -4,7 +4,6 @@
 
     padding-top: 56px;
     padding-bottom: 10px;
-    /* height: 80vh; */
 }
 
 .apresentation .title {
@@ -20,7 +19,6 @@
     font-size: large;
     font-stretch: condensed;
     color: rgb(120, 120, 120);
-    /* font-style: ; */
 }
 
 .apresentation img {

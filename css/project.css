@@ -141,18 +141,8 @@
     .show-project-img img{
         color: rgb(0, 0, 0);
 
-        /* transform: scale(0.9); */
-
         margin-bottom: 0px;
     }
-
-    /* .project-img img {
-    
-        min-width: 300px;
-        width: 100%;
-    
-        transform: scale(0.7);
-    } */
 
     .text-span {     
         width: 100%;

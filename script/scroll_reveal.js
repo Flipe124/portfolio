@@ -29,7 +29,6 @@ function RevealIntem(screen) {
         delay: 400
     });
     
-    
     show.reveal('.my-skill-reveal', {
         duration: 1000,
         distance: '10px',
