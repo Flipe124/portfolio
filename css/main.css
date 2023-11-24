@@ -40,15 +40,6 @@ body::-webkit-scrollbar-thumb {
     padding-left: 8%;
 }
 
-.mtop-1 {
-    margin-top: 10px;
-}
-
-.f-size-20 {
-    font-size: 50px;
-    max-width: 40%;
-}
-
 .left {
     background-color: red;
     max-width: 50%;
@@ -96,8 +87,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title-section {
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
     font-weight: 700;
     text-align: center;
