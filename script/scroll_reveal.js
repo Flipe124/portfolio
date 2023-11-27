@@ -68,14 +68,14 @@ function RevealIntem(screen) {
         delay: 1200
     });
     
-    show.reveal('.certification-left-reveal', {
+    show.reveal('.journey-left-reveal', {
         duration: 1000,
         distance: '10px',
         origin: 'left',
         delay: 900
     });
     
-    show.reveal('.certification-reveal', {
+    show.reveal('.journey-reveal', {
         duration: 1000,
         distance: '10px',
         origin: origin,

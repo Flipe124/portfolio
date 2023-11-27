@@ -5,8 +5,8 @@
 .skills-reveal,
 .project-left-reveal,
 .project-right-reveal,
-.certification-reveal,
-.certification-left-reveal,
+.journey-reveal,
+.journey-left-reveal,
 .footer-reveal {
     visibility: hidden;
 }
