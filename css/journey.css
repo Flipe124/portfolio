@@ -1,4 +1,4 @@
-.certification {
+.journey {
     color: white;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -6,21 +6,20 @@
     padding-right: 100px;
 }
 
-.show-certification{
+.show-journey{
     transition: 0.5s;
     padding: 10px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    
 }
 
-.show-certification:hover {
+.show-journey:hover {
     transition: 0.2s;
     background-color: rgb(255, 255, 255);
     color: black;
 }
-.show-certification:hover .img, title{
+.show-journey:hover .img, title{
     transition: 0.2s;
 }
 
@@ -28,7 +27,7 @@
     margin: 0;
 }
 
-.certification h2 {
+.journey h2 {
     text-align: center;
 
     font-weight: 700;
@@ -38,7 +37,7 @@
     padding-top: 20px;
 }
 
-.certification img {
+.journey img {
     width: 50px;
     margin-right: 10px;
 }
@@ -55,7 +54,7 @@
 }
 
 @media screen and (width < 768px) {
-    .certification {
+    .journey {
         padding-left: 5px;
         padding-right: 5px;
     }
