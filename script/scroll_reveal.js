@@ -45,47 +45,47 @@ function RevealIntem(screen) {
     show.reveal('.title-reveal', {
         duration: 1000,
         distance: '10px',
-        delay: 800
+        delay: 200
     });
     
     show.reveal('.skills-reveal', {
         duration: 1000,
         distance: '10px',
-        delay: 1000
+        delay: 150
     });
     
     show.reveal('.project-left-reveal', {
         duration: 1000,
         distance: '10px',
         origin: 'left',
-        delay: 1200
+        delay: 50
     });
     
     show.reveal('.project-right-reveal', {
         duration: 1000,
         distance: '10px',
         origin: origin,
-        delay: 1200
+        delay: 150
     });
     
     show.reveal('.journey-left-reveal', {
         duration: 1000,
         distance: '10px',
         origin: 'left',
-        delay: 900
+        delay: 50
     });
     
     show.reveal('.journey-reveal', {
         duration: 1000,
         distance: '10px',
         origin: origin,
-        delay: 1000
+        delay: 100
     });
     
     show.reveal('.footer-reveal', {
         duration: 1000,
         distance: '20px',
-        delay: 1000
+        delay: 150
     });
 
 }
