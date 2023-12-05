@@ -14,6 +14,7 @@ function isMobileDevice() {
 
 function RevealIntem(screen) {
     var show = ScrollReveal({ reset: true });
+    const DISTANCE = '50px';
     var origin;
 
     if(screen < 768) {
@@ -24,60 +25,60 @@ function RevealIntem(screen) {
 
     show.reveal('.my-info-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         origin: 'left', 
         delay: 200
     });
     
     show.reveal('.my-image-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         origin: origin,
         delay: 400
     });
     
     show.reveal('.my-skill-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         delay: 600
     });
     
     show.reveal('.title-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         delay: 200
     });
     
     show.reveal('.skills-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         delay: 150
     });
     
     show.reveal('.project-left-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         origin: 'left',
         delay: 50
     });
     
     show.reveal('.project-right-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         origin: origin,
         delay: 150
     });
     
     show.reveal('.journey-left-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         origin: 'left',
         delay: 50
     });
     
     show.reveal('.journey-reveal', {
         duration: 1000,
-        distance: '10px',
+        distance: DISTANCE,
         origin: origin,
         delay: 100
     });
