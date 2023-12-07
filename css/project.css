@@ -115,6 +115,18 @@
     transition: 0.5s;
 }
 
+.btn-block {
+    margin: 2px;
+    padding: 10px 30px;
+
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+
+    border-color: gray;
+    color: gray;
+}
+
 .btn-access-project:hover {
     background-color: #292929;
     color: white;
