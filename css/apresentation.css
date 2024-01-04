@@ -1,4 +1,8 @@
 .apresentation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 100vw; */
+
     background-color: #292929;
     color: white;
 
@@ -22,7 +26,30 @@
     color: rgb(120, 120, 120);
 }
 
-.apresentation img {
+.apresentation .resume {
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+.apresentation .my-infos {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.apresentation .image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.apresentation .image img {
+    scale: 0.8;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -32,6 +59,7 @@
 
 .social {
     font-size: 30px;
+    grid-column: 2;
 }
 
 .social a {
@@ -50,6 +78,11 @@
 }
 
 .skill {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* width: 100% !important; */
+    grid-column: span 2;
     color: rgb(192, 192, 192);
     text-align: center;
     font-size: 40px;
@@ -130,14 +163,20 @@
     font-size: 40px;
 }
 
-.tooltip a i{
+.tooltip a i {
     font-size: 30px;
 }
 
 @media screen and (width < 768px) {
     .apresentation {
-        height: auto;
+        grid-template-columns: 100%;
     }
+
+    .apresentation .image {
+        grid-column: span 2;
+
+    }
+
     .social {
         text-align: center;
 
