@@ -1,7 +1,6 @@
 .apresentation {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* width: 100vw; */
 
     background-color: #292929;
     color: white;
@@ -29,7 +28,7 @@
 .apresentation .resume {
     width: 100%;
     align-items: center;
-    
+
 
 }
 
@@ -81,7 +80,6 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    /* width: 100% !important; */
     grid-column: span 2;
     color: rgb(192, 192, 192);
     text-align: center;
