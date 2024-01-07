@@ -28,8 +28,6 @@
 .apresentation .resume {
     width: 100%;
     align-items: center;
-
-
 }
 
 .apresentation .my-infos {
@@ -48,7 +46,8 @@
 }
 
 .apresentation .image img {
-    scale: 0.8;
+    scale: 1;
+    max-width: 100%;
     transition: transform 0.5s ease-in-out;
 }
 
