@@ -13,7 +13,7 @@ function isMobileDevice() {
 }
 
 function RevealIntem(screen) {
-    var show = ScrollReveal({ reset: true });
+    var show = ScrollReveal({ reset: false });
     const DISTANCE = '50px';
     var origin;
 
@@ -26,14 +26,14 @@ function RevealIntem(screen) {
     show.reveal('.my-info-reveal', {
         duration: 1000,
         distance: DISTANCE,
-        origin: 'left', 
+        origin: origin, 
         delay: 200
     });
     
     show.reveal('.my-image-reveal', {
         duration: 1000,
         distance: DISTANCE,
-        origin: origin,
+        origin: 'left',
         delay: 400
     });
     
