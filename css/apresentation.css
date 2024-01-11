@@ -170,6 +170,15 @@
     font-size: 30px;
 }
 
+
+.float-animation-lvl-1 {
+    animation: floatAnimationlvl1 10s infinite linear;
+}
+
+.float-animation-lvl-2 {
+    animation: floatAnimationlvl2 10s infinite linear;
+}
+
 @keyframes floatAnimation {
     0%, 100% {
         transform: translateY(0);
@@ -177,6 +186,26 @@
 
     50% {
         transform: translateY(-50px);
+    }
+}
+
+@keyframes floatAnimationlvl1 {
+    0%, 100% {
+        transform: translateY(-4px);
+    }
+
+    50% {
+        transform: translateY(4px);
+    }
+}
+
+@keyframes floatAnimationlvl2 {
+    0%, 100% {
+        transform: translateY(4px);
+    }
+
+    50% {
+        transform: translateY(-4px);
     }
 }
 
