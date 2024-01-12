@@ -7,7 +7,8 @@
 
     padding-top: 7%;
     padding-bottom: 10px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 
 .apresentation .title {
@@ -62,7 +63,7 @@
 }
 
 .social {
-    font-size: 30px;
+    /* font-size: 40px; */
     grid-column: 2;
 }
 
@@ -91,7 +92,7 @@
     font-size: 40px;
 
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .skill i {
@@ -163,20 +164,11 @@
 }
 
 .tooltip i {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .tooltip a i {
-    font-size: 30px;
-}
-
-
-.float-animation-lvl-1 {
-    animation: floatAnimationlvl1 10s infinite linear;
-}
-
-.float-animation-lvl-2 {
-    animation: floatAnimationlvl2 10s infinite linear;
+    font-size: 35px;
 }
 
 @keyframes floatAnimation {
@@ -186,26 +178,6 @@
 
     50% {
         transform: translateY(-50px);
-    }
-}
-
-@keyframes floatAnimationlvl1 {
-    0%, 100% {
-        transform: translateY(-4px);
-    }
-
-    50% {
-        transform: translateY(4px);
-    }
-}
-
-@keyframes floatAnimationlvl2 {
-    0%, 100% {
-        transform: translateY(4px);
-    }
-
-    50% {
-        transform: translateY(-4px);
     }
 }
 
@@ -225,5 +197,34 @@
         text-align: center;
 
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (height < 700px) {
+    .apresentation {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    
+    }
+
+    .apresentation .my-name {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .apresentation .my-infos p {
+        line-height: 25px;
+    }
+
+    .tooltip a i {
+        font-size: 30px;
+    }
+
+    .skill {
+        margin-top: 0;
+    }
+
+    .skill i {
+        font-size: 38px;
     }
 }
