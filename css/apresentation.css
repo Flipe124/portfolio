@@ -13,7 +13,6 @@
 
 .apresentation .title {
     margin-bottom: 15px;
-    /* color: #BD2B3A; */
 }
 
 .apresentation .my-name {
@@ -54,16 +53,10 @@
 .apresentation .image img {
     scale: 1;
     max-width: 100%;
-    /* transition: transform 0.5s ease-in-out; */
     animation: floatAnimation 8s infinite;
 }
 
-.apresentation img:hover {
-    /* transform: perspective(800px) rotateY(-20deg) scale(1.1); */
-}
-
 .social {
-    /* font-size: 40px; */
     grid-column: 2;
 }
 
