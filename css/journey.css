@@ -1,5 +1,5 @@
 .journey {
-    color: white;
+    color: rgb(200, 200, 200);
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 100px;
@@ -45,7 +45,7 @@
 .line {
     width: 200px;
     height: 5px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255, 0.2);
     margin-bottom: 30px;
 }
 

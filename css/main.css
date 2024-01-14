@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 
 .line-full {
     margin-top: 0px;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.2);
 
     backdrop-filter: blur(10px);
     height: 1px;
