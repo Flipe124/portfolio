@@ -194,12 +194,6 @@
 }
 
 @media screen and (height < 700px) {
-    .apresentation {
-        display: grid;
-        grid-template-columns: 30% 70%;
-    
-    }
-
     .apresentation .my-name {
         font-size: 30px;
         font-weight: 700;
