@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
     width: 45%;
 }
 
-.my-padding {
+.mobile {
     padding-right: 8%;
     padding-left: 8%;
 }
