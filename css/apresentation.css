@@ -178,25 +178,7 @@
         grid-template-columns: 100%;
         height: auto;
     }
-
-    .skill {
-        display: none;
-    }
-
-    .apresentation .image {
-        grid-column: span 2;
-        margin-top: 80px;
-
-    }
-
-    .social {
-        text-align: center;
-
-        margin-bottom: 100px;
-    }
-}
-
-@media screen and (height < 700px) {
+    
     .apresentation .my-name {
         font-size: 30px;
         font-weight: 700;
@@ -205,7 +187,25 @@
     .apresentation .my-infos p {
         line-height: 25px;
     }
+    
+    .apresentation .image {
+        grid-column: span 2;
+        margin-top: 120px;
 
+    }
+
+    .apresentation .social {
+        text-align: center;
+
+        margin-bottom: 100px;
+    }
+
+    .apresentation .skill {
+        display: none;
+    }
+}
+
+@media screen and (height < 700px) {
     .tooltip a i {
         font-size: 30px;
     }
