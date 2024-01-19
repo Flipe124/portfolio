@@ -103,6 +103,10 @@
     margin-bottom: 10px;
 }
 
+.skill-container .level {
+    display: none;
+}
+
 @media screen and (width < 768px) {
     .skill-status {
         padding-left: 10px;
