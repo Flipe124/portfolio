@@ -136,6 +136,11 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
+.show-project-img h3 .info {
+    font-size: 18px;
+    color: #797979;
+}
+
 @media screen and (width < 768px) {
     .project {
         background-color: rgb(255, 255, 255);
