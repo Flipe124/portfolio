@@ -29,7 +29,7 @@
 
     position: relative;
     top: 20%;
-    
+
     height: 100px;
 }
 
@@ -177,10 +177,13 @@
     .skill-status {
         grid-template-columns: 100%;
         height: auto;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .skill-status h2 {
-        margin-top: 0px;
+        margin-top: 0;
+        
     }
 
     .skills {
@@ -191,9 +194,9 @@
     }
     
     .skill-container {
-        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
 
         font-size: 15px;
     }
-
 }
