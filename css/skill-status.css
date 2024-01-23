@@ -1,8 +1,7 @@
 .skill-status {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
 
     background-color: #f7f7f7;
     padding-left: 100px;
@@ -17,21 +16,43 @@
 
 }
 
+.skill-status h2 {
+    grid-column: span 2;
+    grid-row: span 2;
+    margin-top: 100px;
+}
+
 .skills {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
+    position: relative;
+    top: 20%;
+    
+    height: 100px;
+}
+
+.img-astro {
+    width: 80%;
+}
+
+.img-astro img {
+    width: 100%;
 }
 
 .skill-container {
     padding: 10px;
     border-radius: 12px;
 
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 
     transition: 0.3s;
 
     width: 160px;
+    height: 70px;
     min-width: 160px;
     background-color: #fff;
 
@@ -107,14 +128,68 @@
     display: none;
 }
 
+@media screen and (width >= 1700px) {
+    .skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (width < 1700px) {
+    .skills {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (width < 1400px) {
+    .skill-status h2 {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .skills {
+        position: relative;
+        top: 20%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-astro {
+        position: relative;
+        top: 20%;
+    }
+}
+
+@media screen and (width < 1000px) {
+    .skill-status {
+        grid-template-columns: 100%;
+    }
+    
+    .skills {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-astro {
+        display: none;
+    }
+}
+
 @media screen and (width < 768px) {
     .skill-status {
-        padding-left: 10px;
-        padding-right: 0px;
-
+        grid-template-columns: 100%;
         height: auto;
     }
 
+    .skill-status h2 {
+        margin-top: 0px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: static;
+        height: auto;
+    }
+    
     .skill-container {
         margin: 5px;
 
