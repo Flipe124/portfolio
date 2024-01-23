@@ -95,6 +95,10 @@ body::-webkit-scrollbar-thumb {
     font-size: 35px;
 }
 
+.float-animation {
+    animation: floatAnimation 8s infinite;
+}
+
 #scroll-animation {
     position: absolute;
     top: 80%;
@@ -106,6 +110,16 @@ body::-webkit-scrollbar-thumb {
 #my-image {
     width: 80%;
     max-width: 300px;
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(25);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
 }
 
 @media screen and (width < 768px) {
