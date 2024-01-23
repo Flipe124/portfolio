@@ -54,6 +54,12 @@ function RevealIntem(screen) {
         distance: DISTANCE,
         delay: 150
     });
+
+    show.reveal('.img-astro', {
+        duration: 1000,
+        distance: DISTANCE,
+        delay: 150
+    })
     
     show.reveal('.project-left-reveal', {
         duration: 1000,
