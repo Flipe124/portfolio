@@ -4,7 +4,6 @@ function isMobileDevice() {
 
 if(isMobileDevice) {
     var sections = document.querySelectorAll("section");
-    console.log("Teste")
 
     for(i = 0;i < sections.length; i++) {
         sections[i].classList.add("mobile");
